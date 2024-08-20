@@ -29,7 +29,7 @@ EXPECT_EQ(level_order_traversal(emptyRoot), expected);
 // Test 3: Baum mit nur einem Knoten
 TEST(LevelOrderTraversalTest, SingleNodeTree) {
 TreeNode* singleNodeRoot = new TreeNode(1);
-std::vector<std::vector<int>> expected = {{2}};
+std::vector<std::vector<int>> expected = {{1}};
 
 EXPECT_EQ(level_order_traversal(singleNodeRoot), expected);
 }
