@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zainabmohamedbasheer/CLionProjects/CodingInterview
+# Install script for directory: /Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/cmake-build-debug/src/cmake_install.cmake")
+  include("/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/cmake-build-debug/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/cmake-build-debug/tst/cmake_install.cmake")
+  include("/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/cmake-build-debug/tst/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/cmake-build-debug/lib/googletest/cmake_install.cmake")
+  include("/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/cmake-build-debug/lib/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

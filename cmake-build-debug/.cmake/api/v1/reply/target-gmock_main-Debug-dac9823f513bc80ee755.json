@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libgmock.a"
+			"path" : "lib/libgmock_main.a"
 		}
 	],
 	"backtrace" : 3,
@@ -34,7 +34,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 97,
+				"line" : 100,
 				"parent" : 0
 			},
 			{
@@ -64,7 +64,7 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 98,
+				"line" : 101,
 				"parent" : 0
 			},
 			{
@@ -106,25 +106,28 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/src"
-				},
-				{
-					"backtrace" : 9,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/lib/googletest/googlemock/include"
-				},
-				{
-					"backtrace" : 9,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/lib/googletest/googlemock"
+					"isSystem" : true,
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/lib/googletest/googletest/include"
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/lib/googletest/googlemock/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/lib/googletest/googletest"
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/lib/googletest/googlemock"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/lib/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/lib/googletest/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -146,10 +149,14 @@
 	[
 		{
 			"backtrace" : 6,
+			"id" : "gmock::@7712283c01f504ef6d93"
+		},
+		{
+			"backtrace" : 6,
 			"id" : "gtest::@7e3677ed2a4dc8c8eb88"
 		}
 	],
-	"id" : "gmock::@7712283c01f504ef6d93",
+	"id" : "gmock_main::@7712283c01f504ef6d93",
 	"install" : 
 	{
 		"destinations" : 
@@ -164,8 +171,8 @@
 			"path" : "/usr/local"
 		}
 	},
-	"name" : "gmock",
-	"nameOnDisk" : "libgmock.a",
+	"name" : "gmock_main",
+	"nameOnDisk" : "libgmock_main.a",
 	"paths" : 
 	{
 		"build" : "lib/googletest/googlemock",
@@ -186,7 +193,7 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "lib/googletest/googlemock/src/gmock-all.cc",
+			"path" : "lib/googletest/googlemock/src/gmock_main.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

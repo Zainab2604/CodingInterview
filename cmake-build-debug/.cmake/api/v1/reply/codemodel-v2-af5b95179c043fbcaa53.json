@@ -175,42 +175,42 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "CodingInterview_lib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-CodingInterview_lib-Debug-92b983c3b4ae66411933.json",
+					"jsonFile" : "target-CodingInterview_lib-Debug-656e65ea8d37dea0157e.json",
 					"name" : "CodingInterview_lib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "CodingInterview_tst::@bc08d5df49ffa9ee5cce",
-					"jsonFile" : "target-CodingInterview_tst-Debug-5249f1a564a33b367e76.json",
+					"jsonFile" : "target-CodingInterview_tst-Debug-f043102d8314b69b5e0c.json",
 					"name" : "CodingInterview_tst",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "gmock::@7712283c01f504ef6d93",
-					"jsonFile" : "target-gmock-Debug-906e95d94112f3803872.json",
+					"jsonFile" : "target-gmock-Debug-f4a9a8847f2c6395f103.json",
 					"name" : "gmock",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "gmock_main::@7712283c01f504ef6d93",
-					"jsonFile" : "target-gmock_main-Debug-3821fe0364188e489eb9.json",
+					"jsonFile" : "target-gmock_main-Debug-dac9823f513bc80ee755.json",
 					"name" : "gmock_main",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "gtest::@7e3677ed2a4dc8c8eb88",
-					"jsonFile" : "target-gtest-Debug-7ce56b647062ef6e5037.json",
+					"jsonFile" : "target-gtest-Debug-9accb10831a6b3b5725b.json",
 					"name" : "gtest",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "gtest_main::@7e3677ed2a4dc8c8eb88",
-					"jsonFile" : "target-gtest_main-Debug-43ad3265b35a1b243dda.json",
+					"jsonFile" : "target-gtest_main-Debug-1ac37b3fa274accdde6e.json",
 					"name" : "gtest_main",
 					"projectIndex" : 3
 				}
@@ -220,8 +220,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/cmake-build-debug",
-		"source" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview"
+		"build" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/cmake-build-debug",
+		"source" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal"
 	},
 	"version" : 
 	{

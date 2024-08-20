@@ -60,17 +60,17 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/src"
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/src"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/lib/googletest/googletest/include"
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/lib/googletest/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterview/lib/googletest/googletest"
+					"path" : "/Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/lib/googletest/googletest"
 				}
 			],
 			"language" : "CXX",

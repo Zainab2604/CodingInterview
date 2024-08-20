@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zainabmohamedbasheer/CLionProjects/CodingInterview/src
+# Install script for directory: /Users/zainabmohamedbasheer/CLionProjects/CodingInterviewFinal/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
