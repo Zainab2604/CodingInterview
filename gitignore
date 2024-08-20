@@ -1,0 +1,6 @@
+# ignore build folder
+build/*
+.vs/*
+out/*
+.idea/*
+cmake-build-debug/*
