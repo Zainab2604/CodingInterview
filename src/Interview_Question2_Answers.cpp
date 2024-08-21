@@ -1,9 +1,6 @@
-#include <iostream>
 #include <queue>
 #include <unordered_map>
 #include <limits>
-
-
 
 std::unordered_map<int, int> dijkstra(int start, std::unordered_map<int, std::unordered_map<int, int> > graph) {
 
@@ -47,31 +44,6 @@ std::unordered_map<int, int> dijkstra(int start, std::unordered_map<int, std::un
 
     return distances;
 }
-
-/*int main() {
-    // Beispielgraph erstellen
-
-    std::unordered_map<int, std::unordered_map<int, int>> graph;
-    graph = {
-            {0, {{1, 4}, {2, 1}}},
-            {1, {{3, 1}}},
-            {2, {{1, 2}, {3, 5}}},
-            {3, {}}
-    };
-
-
-    // Den Algorithmus ausführen
-    std::unordered_map<int, int> distances = algorithm(0,graph);
-
-    // Ergebnis ausgeben
-    std::cout << "Kürzeste Wege von Knoten 0 zu allen anderen Knoten:" << std::endl;
-    for (auto& pair : distances) {
-        std::cout << "Knoten " << pair.first << ": " << pair.second << std::endl;
-    }
-
-
-    return 0;
-}*/
 
 // pseudo code
 

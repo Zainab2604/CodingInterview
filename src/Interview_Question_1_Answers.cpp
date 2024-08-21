@@ -1,7 +1,5 @@
-#include <iostream>
 #include <vector>
 #include <queue>
-//#include "googletest/googletest/include/gtest/gtest.h"
 
 struct TreeNode {
     int val;
@@ -35,36 +33,10 @@ std::vector<std::vector<int>> level_order_traversal(TreeNode* root) {
                 queue.push(node->right);
             }
         }
-
         result.push_back(currentLevel);
     }
-
     return result;
 }
-
-/*int main() {
-    // Beispielbaum erstellen
-    TreeNode* root = new TreeNode(3);
-    root->left = new TreeNode(9);
-    root->right = new TreeNode(20);
-    root->right->left = new TreeNode(15);
-    root->right->right = new TreeNode(7);
-
-    // Level-Order Traversal ausführen
-    std::vector<std::vector<int>> traversal = level_order_traversal(root);
-
-    // Ergebnis ausgeben
-    std::cout << "Level-Order Traversal:" << std::endl;
-    for (const auto& level : traversal) {
-        for (int val : level) {
-            std::cout << val << " ";
-        }
-        std::cout << std::endl;
-    }
-
-    return 0;
-}*/
-
 
 // pseudo code
 

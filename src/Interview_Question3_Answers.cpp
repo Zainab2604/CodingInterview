@@ -1,5 +1,3 @@
-#include <iostream>
-
 struct TreeNode {
     int val;
     TreeNode* left;
@@ -26,30 +24,6 @@ bool is_symmetric(TreeNode* root) {
     }
     return check_symmetry(root->left, root->right);
 }
-
-/*int main() {
-    // Beispielbaum erstellen
-    TreeNode* root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(2);
-    root->left->left = new TreeNode(3);
-    root->left->right = new TreeNode(4);
-    root->right->left = new TreeNode(4);
-    root->right->right = new TreeNode(3);
-    //root->right->right->left = new TreeNode(3);
-
-    // Symmetrie überprüfen
-    bool symmetric = is_symmetric(root);
-
-    // Ergebnis ausgeben
-    if (symmetric) {
-        std::cout << "Der Baum ist symmetrisch." << std::endl;
-    } else {
-        std::cout << "Der Baum ist nicht symmetrisch." << std::endl;
-    }
-
-    return 0;
-}*/
 
 // pseudo code
 

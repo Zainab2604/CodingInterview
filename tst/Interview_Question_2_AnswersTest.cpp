@@ -54,3 +54,9 @@ TEST(DijkstraTest, DisconnectedGraph) {
     EXPECT_EQ(dijkstra(0, graph), expected);
 }
 
+// Test 4: leerer Graph
+TEST(DijkstraTest, EmptyGraph) {
+    std::unordered_map<int, std::unordered_map<int, int>> graph;
+
+    EXPECT_THROW(dijkstra(0,graph), std::range_error);
+}
